@@ -30,9 +30,11 @@ def get_current_mount():
     return Mounts
 
 def umount_nfs(curMount,FutureMount):
-    if curMount==FutureMount:
+    if curMount==FutureMount :
         print("No need to change anything !\n")
         sys.exit()
+    elif not curmount:
+        print("No nfs is mounted right now !\n")
     else:
         print("Umounting old nfs firstly!\n ")
         for cur_host in curMount.keys():
