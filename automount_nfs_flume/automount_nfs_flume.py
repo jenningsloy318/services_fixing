@@ -60,15 +60,15 @@ def mount_nfs(MountDict):
             print("Operated  failed:  "+mount_out[0],mount_out[1].rstrip()+'!\n') 
 
 if __name__ == "__main__":
-    All_server_mount={'cron2.synnex.org':'/mnt/uscron2_spool',
-                      'cron3.synnex.org':'/mnt/uscron3_spool',
-                      'cron1.hyvesolutions.org':'/mnt/hycron1_spool',
-                      'gis.synnex.org':'/mnt/edigis_spool',
-                      'fca-vm-prod-esearch-index.synnex.org':'/mnt/esearch_spool',
-                      'mxcron.synnex.org':'/mnt/mxcron_spool',
-                      'cacron1.synnex.org':'/mnt/cacron1_spool',
-                      'cron1-uk.synnex.org':'/mnt/ukcron1_spool',
-                      'caedi.synnex.org':'/mnt/caedi_spool'
+    All_server_mount={'cron2.example.org':'/mnt/uscron2_spool',
+                      'cron3.example.org':'/mnt/uscron3_spool',
+                      'cron1.example.org':'/mnt/hycron1_spool',
+                      'gis.example.org':'/mnt/edigis_spool',
+                      'fca-vm-prod-esearch-index.example.org':'/mnt/esearch_spool',
+                      'mxcron.example.org':'/mnt/mxcron_spool',
+                      'cacron1.example.org':'/mnt/cacron1_spool',
+                      'cron1-uk.example.org':'/mnt/ukcron1_spool',
+                      'caedi.example.org':'/mnt/caedi_spool'
                       }
     
     Final_server_mount=All_server_mount
